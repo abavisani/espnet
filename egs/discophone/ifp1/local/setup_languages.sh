@@ -15,9 +15,9 @@ FLP=true
 # CGN related setups
 #cgn=/home/jerome/Documents/20151207_CGN_2_0_3/CGN_2.0.3/		# point this to CGN
 if [ -n "$(hostname | grep -i clsp)" ]; then
-    cgn=/export/cgn/CGN;
+    cgn=/export/cgn/CGN_2.0.3/;
 elif [ -n "$(hostname | grep -i ifp)" ]; then
-    cgn=/ws/ifp-53_1/hasegawa/data/cgn/CGN;
+    cgn=/ws/ifp-53_1/hasegawa/data/cgn/CGN_2.0.3/;
 fi
 lang="nl" # pointed to folder for Dutch spoken in Netherlands #
 comp="o" # pointed to 64hrs read speech #
@@ -26,7 +26,7 @@ comp="o" # pointed to 64hrs read speech #
 if [ -n "$(hostname | grep -i clsp)" ]; then
     gp_path="/export/corpora5/GlobalPhone"
 elif [ -n "$(hostname | grep -i ifp)" ]; then
-    gp_path="/ws/ifp-53_1/hasegawa/data/globalphone"
+    gp_path="/ws/ifp-53_1/hasegawa/data/globalphone/data"
 fi    
 gp_langs="Arabic Czech French Korean Mandarin Spanish Thai"
 gp_recog="Arabic Czech French Korean Mandarin Spanish Thai"
