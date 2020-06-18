@@ -28,8 +28,8 @@ if [ -n "$(hostname | grep -i clsp)" ]; then
 elif [ -n "$(hostname | grep -i ifp)" ]; then
     gp_path="/ws/ifp-53_1/hasegawa/data/globalphone/data"
 fi    
-gp_langs="Arabic Czech French Korean Spanish Thai"
-gp_recog="Arabic Czech French Korean Spanish Thai"
+gp_langs="Arabic Czech French Korean Mandarin Spanish Thai"
+gp_recog="Arabic Czech French Korean Mandarin Spanish Thai"
 mboshi_train=false
 mboshi_recog=true
 gp_romanized=false

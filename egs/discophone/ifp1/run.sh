@@ -57,7 +57,7 @@ else
   # Lao - 203
   babel_langs="307 103 101 402 107 206 505"
   babel_recog="${babel_langs} 404 203"
-  gp_langs="Arabic Czech French Korean Spanish Thai"
+  gp_langs="Arabic Czech French Korean Mandarin Spanish Thai"
   gp_recog="${gp_langs}"
   mboshi_train=false
   mboshi_recog=true
